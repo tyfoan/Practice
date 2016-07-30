@@ -1,0 +1,138 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.row {
+  margin: 0 -15px 0 -15px;
+}
+
+
+.header{
+  padding: 30px 0px 80px;
+}
+
+.header h1{
+  font-size: 20px;
+  float: left;
+}
+
+.header ul li a{
+  color: black;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: -4px;
+}
+
+.pull-right{
+  float: right:!important;
+}
+
+.nav-tabs>li{
+  margin-bottom: -1px;
+}
+
+.nav-tabs{
+  border-bottom: 1px solid #ddd;
+}
+.nav {
+  padding-left 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.jumbotron {
+  background-color: transparent;
+  padding: 30px;
+  margin-bottom: 30px;
+
+}
+.jumbotron h2 {
+  font-size: 50px;
+  margin-bottom:120px;
+}
+
+.jumbotron h2 span{
+  color:orange;
+}
+
+.banner{
+  background: #333;
+  color:white;
+  text-align: center;
+  padding: 20px;
+}
+
+.banner h1{
+  font-size: 36px;
+}
+
+.cards {
+  background: #ffc200;
+  padding: 80px 0;
+}
+.cards h2{
+  text-align: center;
+  margin:20px 0 60px 0;
+}
+.cards img{
+  margin-bottom: 25px;
+}
+
+.footer{
+  background: black;
+  color: white;
+  padding: 60px 0; 
+}
+
+.footer .align-left{
+  float:left;
+}
+
+.footer h3{
+  font-size: 20px;
+}
+
+.footer p {
+  margin-bottom: 0px;
+  font-size:12px;
+}
+
+.footer img{
+  height: 24px;
+  width: 24px;
+  margin: 5px;
+}
+
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
