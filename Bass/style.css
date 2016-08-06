@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #161718;
+  color:#fff;
+}
+
+a{
+	color: #fff;
+}
+
+.jumbotron {
+	background: url("images/bg.jpg") no-repeat center center;
+	background-size: cover;
+	height: 560px;
+	margin: 0px;
+}
+
+.jumbotron p{
+	margin-bottom: 15px;
+	font-size: 21px;
+	font-weight: 200;
+}
+
+.header ul li{
+	display: inline-block;
+	margin-top:40px;
+	margin-left: 40px;
+}
+
+.pull-right {
+    float: right!important;
+}
+
+.header .button{
+	border:none;
+	border-radius: 0px;
+	padding: 8px 30px;
+	background: #ff003d;
+}
+
+.header .button:hover{
+	text-decoration: none;
+	color:#ff003d;
+	background: #fff;
+}
+
+.header a:hover{
+	color:#fff;
+}
+
+.main {
+	color:#fff;
+	float: left;
+}
+
+.main h1{
+	padding-top: 60px;
+}
+
+
+.supporting-1, 
+.supporting-2,
+.supporting-3,
+.supporting-4{
+	padding: 70px 30px;
+}
+
+.supporting-2{
+	background: #000;
+}
+
+
+.supporting-2{
+	background: #000;
+}
+
+.supporting-4{
+	background: url("images/feature.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height: 400px;
+}
+
+.supporting-4 ul li{
+	display: inline;
+}
+
+.supporting-4 .container{
+	margin-top: 80px;
+}
+
+.footer{
+	background: #000;
+	padding: 50px 0px 35px 30px;
+}
+
+.footer h3{
+	font-size: 15px;
+	text-transform: uppercase;
+}
+
+.footer ul{
+	list-style:none;
+	padding: 0;
+}
+.footer a{
+	color:#aaa;
+	font-size: 13px;
+	display: inline-block;
+	padding: 5px 0;
+}
