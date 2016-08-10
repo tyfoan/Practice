@@ -1,0 +1,198 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	background: #f2f2f2;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+p{
+	margin: 0 0 10px;
+}
+
+.header{
+	min-height: 80px;
+	background: black;
+}
+
+.header img{
+	margin: 15px 0 0 0;
+}
+
+.search{
+	float: right;
+	margin-top:25px;
+}
+.search-form{
+	font-size: 12px;
+}
+
+.search-form input{
+	background: transparent;
+	border:0px;
+	border-bottom: 1px solid #fff;
+	color:#fff;
+	height: 30px;
+	width: 240px;
+	outline: none;
+}
+
+.search-btn{
+	height: 30px;
+	margin: 0 0 0 10px;
+	padding: 0px 10px;
+	border: 0px;
+	border-bottom: 1px solid #1a77ff;
+	background: transparent;
+	color: #fff;
+}
+
+.search-btn:hover{
+	border-bottom: 1px solid #fff;
+}
+.search-form input:hover,
+.search-form input:active{
+	border-bottom: 1px solid #1a77ff;
+}
+
+.menu{
+	background: #152230;
+	min-height: 40px;
+}
+
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	font-size: 12px;
+}
+
+
+.menu ul.nav li a:hover,
+.menu ul.nav li:hover,
+.menu ul.nav li.active{
+	background: #1a77ff;
+}
+
+.menu ul.nav li{
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	margin: 0;
+	padding: 0 20px;
+	text-align: center;
+}
+
+.menu ul.nav li a{
+	text-decoration: none;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	background: url("images/bass-bg.jpg") no-repeat center center;
+	background-size:cover;
+	color:#fff;
+	height: 500px;
+}
+
+.main .container{
+	padding: 40px 10px;
+}
+
+#info{
+	font-size: 20px;
+}
+
+.date{
+	font-size: 16px;
+}
+
+.main h1 span{
+	border-bottom: 5px solid #1a77ff;
+	font-size: 60px;
+}
+
+.col-md-12 img{
+	width: 100%;
+}
+
+.supporting{
+	/*margin: 40px 30px;*/
+}
+
+.supporting h3{
+	font-size: 24px;
+}
+
+.supporting ul{
+	padding: 0;
+	margin: 40px 0 0 0;
+	list-style: none;
+}
+.supporting .row ul li{
+	margin: 0 0 20px 0;
+}
+
+.supporting .row .col-md-8{
+	background: #fff;
+	color: #000;
+}
+
+
+.supporting .container .col-md-8,
+.supporting .container .col-md-4{
+	padding: 20px 40px 40px 40px;
+}
+
+
+.supporting .container .sidebar{
+	background: #152230;
+	color: #fff;
+}
+
+.supporting .container h4 span{
+	border-bottom: 3px solid #1a77ff;
+}
+
+.supporting .row{
+	margin: 50px 0;
+}
+
+.supporting .row .col-md-12{
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.footer{
+	background: #000;
+	padding: 40px 0;
+}
+
+.footer ul{
+	float: left;
+	padding: 0;
+	margin: 0;
+}
+
+.footer ul li{
+	display: inline;
+	list-style: none;
+	margin-right: 30px;
+}
+.footer a{
+	color: #e2e2e2;
+	text-decoration: none;
+}
+
+.footer p{
+	float: right;
+	color: #e2e2e2;
+}
+
+
